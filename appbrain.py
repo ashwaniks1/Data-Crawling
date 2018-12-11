@@ -8,7 +8,7 @@ import pymysql
 conn = pymysql.connect(host='10.103.92.251', user='virusplay', password='virusplay', database='virusplay')
 cur = conn.cursor()
 
-#fuction to store data
+#function to store data
 
 
 def store(ranking, name, url):
