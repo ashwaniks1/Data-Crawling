@@ -24,6 +24,8 @@ soup = BeautifulSoup(webpage, 'html.parser')
 
 # code to extract required data from html tags
 
+# nested for loop is used to extract the data from the nested tags of html page
+
 
 for s in soup.find_all('div', class_='data-table-container topmargin-m'):
     for category in s.table.tbody.findAll('tr'):
