@@ -1,0 +1,16 @@
+# MySQL file for createing databse to sstore the data crawled from webpages.
+# In this database we have created different tables for different webpages.
+
+create database virusplay;
+
+use virusplay;
+
+create table google_data(name text, docid varchar(200), url text, date timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+
+create table appbrain_data(ranking int(100),name text, url text, date timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+
+create table digitaltrends_data(name text, date timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+
+create table app_data( content text, date timestamp default current_timestamp on update current_timestamp);
+
+show tables;
