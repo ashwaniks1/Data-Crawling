@@ -7,4 +7,4 @@ appbrain.py contails top free android apps with ranking and url
 
 appbrainfullcontent.py contains the code for crawling the full data like app name ranking developer category ratings totals installs.
 
-digitaltrends contains the ranking of the top free android apps
+digitaltrends contains the ranking of the top free android appsof dec 2018
